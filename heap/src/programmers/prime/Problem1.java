@@ -12,7 +12,7 @@ public class Problem1 {
         for (int i = 2; i * i <= n ; i++) {
             if (prime[i]) {
                 for (int j = i * i; j <= n ; j+=i) {
-                    prime[j] = false;
+                    prime[j] = false; // if not prime, false
                 }
             }
         }
