@@ -1,8 +1,7 @@
 package baejoon.cumulative_sum;
 
 import java.io.IOException;
-import java.util.Comparator;
-import java.util.TreeSet;
+import java.util.*;
 
 public class SortWords {
     public static void main(String[] args) throws IOException {
@@ -19,6 +18,9 @@ public class SortWords {
                 }
             }
         });
+
+
+
 
         s.add("but");
         s.add("i");
@@ -37,6 +39,11 @@ public class SortWords {
         for (String result : s) {
             System.out.println(result);
         }
+
+        
+        int[] a = {5,4,21,7,6,3,1};
+
+
 
     }
 }
