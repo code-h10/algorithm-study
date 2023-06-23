@@ -2,6 +2,9 @@ package programmers.level.one;
 
 public class SortYourOwnStrings {
     public static void main(String[] args) {
+        
+      String[] strings = {"sun", "bed", "car"};
+      int n 1;
       List<String> stringsList = new ArrayList<>();
       String[] result = new String[strings.length];
       for(int i = 0; i < strings.length; i++) {
